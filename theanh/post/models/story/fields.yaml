@@ -1,0 +1,20 @@
+fields:
+    active:
+        label: 'theanh.post::lang.field.active'
+        span: left
+        default: 1
+        type: switch
+    title:
+        label: 'theanh.post::lang.field.title'
+        span: left
+        required: 1
+        type: text
+tabs:
+    fields:
+        description:
+            label: 'theanh.post::lang.field.description'
+            size: giant
+            oc.commentPosition: ''
+            span: full
+            type: richeditor
+            tab: 'theanh.post::lang.tab.description'

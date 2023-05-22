@@ -1,0 +1,19 @@
+title: 'theanh.post::lang.story.list_title'
+modelClass: Theanh\Post\Models\Story
+list: $/theanh/post/models/story/columns.yaml
+recordUrl: 'theanh/post/story/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: '10'
+showSetup: true
+showCheckboxes: true
+showSorting: 1
+defaultSort:
+    column: id
+    direction: desc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+showTree: 0
+filter: _config_filter.yaml
+

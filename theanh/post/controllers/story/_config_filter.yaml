@@ -1,0 +1,16 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+
+scopes:
+    active:
+        label: 'theanh.post::lang.field.active'
+        type: group
+        conditions: status_id in (:filtered)
+        modelClass: Theanh\Post\Models\Story
+        options: getActiveOptions
+    title:
+        label: 'theanh.post::lang.field.title'
+        modelClass: Theanh\Post\Models\Story
+        conditions: category_id in (:filtered)
+        nameFrom: name

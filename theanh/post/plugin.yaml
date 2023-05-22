@@ -1,0 +1,26 @@
+plugin:
+    name: 'theanh.post::lang.plugin.name'
+    description: 'theanh.post::lang.plugin.description'
+    author: Theanh
+    icon: oc-icon-newspaper-o
+    replaces: {}
+#    homepage: ''
+navigation:
+    main-post:
+        label: 'theanh.post::lang.menu.post'
+        url: theanh/post/story
+        icon: icon-pencil
+        permissions:
+            - 'post-menu-*'
+        sideMenu:
+            side-post-story:
+                label: 'theanh.post::lang.menu.story'
+                url: theanh/post/story
+                icon: icon-pencil
+                permissions:
+                    - 'post-menu-story'
+permissions:
+    post-menu-story:
+        tab: 'theanh.post::lang.tab.permissions'
+        label: 'theanh.post::lang.permission.story'
+        order: 100

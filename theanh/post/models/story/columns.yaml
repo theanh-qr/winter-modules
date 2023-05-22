@@ -1,0 +1,31 @@
+columns:
+    id:
+        label: 'theanh.post::lang.field.id'
+        type: text
+        searchable: true
+        sortable: true
+        width: 100px
+    title:
+        label: 'theanh.post::lang.field.title'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'theanh.post::lang.field.description'
+        type: text
+        searchable: true
+        sortable: true
+    active:
+        label: 'theanh.post::lang.field.active'
+        type: switch
+        sortable: true
+    created_at:
+        label: 'theanh.post::lang.field.created_at'
+        type: timetense
+        sortable: true
+        invisible: true
+    updated_at:
+        label: 'theanh.post::lang.field.updated_at'
+        type: timetense
+        sortable: true
+        invisible: true
